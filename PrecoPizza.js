@@ -77,7 +77,6 @@ function imprimir() {
     var thead = document.getElementById("idThead")
     var tbody = document.getElementById("idTbody")
 
-    
     var tr = document.createElement('tr');
     tr.innerHTML =
         "<th>Nome</th>" +
