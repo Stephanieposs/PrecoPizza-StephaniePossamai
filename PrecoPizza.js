@@ -16,7 +16,7 @@ function pegarDados() {
 
     for (let index = 0; index < pizzas.length; index++) {
         if (formulario.nmTamanho.value = pizzas[index].tamanho) {
-            // colocar um tempo de espera
+            //falta colocar um tempo de espera
             document.getElementById("idOut").value = "Esse tamanho ja existe, tente novamente"
             
             pegarDados();
